@@ -1,0 +1,142 @@
+{
+  "karate": {
+    "nodes": 34,
+    "edges": 78,
+    "connected": true,
+    "source_file": "karate.gml",
+    "sha256": "713e1ab3c10c8bc74d98b0f74735ab86f1c56d437e2b8e923ea251d774d376fc",
+    "pinned_url": "https://raw.githubusercontent.com/networkx/networkx-data/master/karate.gml",
+    "cycle_length_L": 8,
+    "chordless_cycles": 103,
+    "beta_c": 0.1287,
+    "beta_sir": 0.1931
+  },
+  "dolphins": {
+    "nodes": 62,
+    "edges": 159,
+    "connected": true,
+    "source_file": "dolphins.zip",
+    "extracted": [
+      "dolphins.gml",
+      "dolphins.txt"
+    ],
+    "sha256": "42ad752c1711f2e9ab625aef0fb123463523a2590825b546b02ecac23735aa4c",
+    "sha256_extracted_gml": "58ce901a69d090fbbc205f49878576ff138fc64036bad0a259cb1c2ddeb36325",
+    "pinned_url": "http://www-personal.umich.edu/~mejn/netdata/dolphins.zip",
+    "cycle_length_L": 8,
+    "chordless_cycles": 1410,
+    "beta_c": 0.147,
+    "beta_sir": 0.2204
+  },
+  "polbooks": {
+    "nodes": 105,
+    "edges": 441,
+    "connected": true,
+    "source_file": "polbooks.zip",
+    "extracted": [
+      "polbooks.gml",
+      "polbooks.txt"
+    ],
+    "sha256": "b8e37351ae9ae8ee39f8b75ed52170d2435f290855605680c9b4f4c8b46b3c37",
+    "sha256_extracted_gml": "29e2439036fa4e13b478a9d4ceda78b5ab4d4d8252882a7f2b6036b028e34848",
+    "pinned_url": "http://www-personal.umich.edu/~mejn/netdata/polbooks.zip",
+    "cycle_length_L": 8,
+    "chordless_cycles": 6343,
+    "beta_c": 0.0838,
+    "beta_sir": 0.1257
+  },
+  "powergrid": {
+    "nodes": 4941,
+    "edges": 6594,
+    "connected": true,
+    "source_file": "power.zip",
+    "extracted": [
+      "power.gml",
+      "power.txt"
+    ],
+    "sha256": "866f2301d113928973f40c8e1ca34be84efa2ad8209cd9d0cf7c16e972167b7d",
+    "sha256_extracted_gml": "f9b4aba8c2b5fd60e52afe745044cd83ed73eac6689e0e094fdd6446b5a0a816",
+    "pinned_url": "http://www-personal.umich.edu/~mejn/netdata/power.zip",
+    "cycle_length_L": 8,
+    "chordless_cycles": 2753,
+    "beta_c": 0.2583,
+    "beta_sir": 0.3875
+  },
+  "celegans": {
+    "nodes": 297,
+    "edges": 2148,
+    "connected": true,
+    "source_file": "celegansneural.zip",
+    "extracted": [
+      "celegansneural.gml",
+      "celegansneural.txt"
+    ],
+    "sha256": "4322642c25e38c6c9866d24f582af6ebd983f1ed5faef27a63ceda40da9c0646",
+    "sha256_extracted_gml": "bd26151dbdf6cca2f947883b493f8867d5be7dad4b1a2c358954d32ad7083eba",
+    "pinned_url": "http://www-personal.umich.edu/~mejn/netdata/celegansneural.zip",
+    "cycle_length_L": 5,
+    "chordless_cycles": 107497,
+    "beta_c": 0.0384,
+    "beta_sir": 0.0576
+  },
+  "email_eucore": {
+    "nodes": 1005,
+    "edges": 16064,
+    "connected": true,
+    "note": "largest connected component of the full graph",
+    "source_file": "email-Eu-core.txt.gz",
+    "sha256": "4b47acdb80197b085fe63c819c357ae488131ee904ed93d1b219a68b0f9e245f",
+    "pinned_url": "https://snap.stanford.edu/data/email-Eu-core.txt.gz",
+    "cycle_length_L": 4,
+    "chordless_cycles": 1011864,
+    "beta_c": 0.0134,
+    "beta_sir": 0.0201
+  },
+  "experiment_parameters": {
+    "random_seed": 42,
+    "sir": {
+      "beta_factor": 1.5,
+      "recovery_gamma": 1.0,
+      "repetitions": 200,
+      "steps": 100
+    },
+    "percolation": {
+      "removal_fraction": 0.5
+    },
+    "pinning_top_k": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      10,
+      15,
+      20
+    ],
+    "mfvs": {
+      "karate_optimal": 7,
+      "dolphins_optimal": 18,
+      "polbooks_optimal": 38,
+      "celegans_feasible": 123,
+      "celegans_time_limit_s": 120
+    }
+  },
+  "euroroad": {
+    "nodes": 1039,
+    "edges": 1305,
+    "connected": true,
+    "note": "largest connected component of the full Euroroads graph",
+    "source_file": "euroroad.tar.bz2",
+    "extracted": [
+      "euroroad.txt",
+      "euroroad.gml"
+    ],
+    "sha256": "2c5dcfe29ca7b9d9f7cdceb514164a7b653f1e9882ecad424aa05b4e9745d6f1",
+    "sha256_extracted_gml": "06a4261aaa8a1f8672e91d766a5779b20e5878f34bea70a1561c9584885ed723",
+    "pinned_url": "http://konect.cc/files/download.tsv.subelj_euroroad.tar.bz2",
+    "cycle_length_L": 8,
+    "chordless_cycles": 286,
+    "beta_c": 0.324,
+    "beta_sir": 0.486
+  }
+}
